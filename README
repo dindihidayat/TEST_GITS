@@ -1,0 +1,2 @@
+Detail Kompleksitas soal kedua : 
+Kompleksitas fungsi ini menggunakan stack untuk melacak kurung buka. Ketika menemukan kurung buka, maka yang akan dilakukan selanjutnya yaitu memasukan kurung buka ke stack. Dan ketika menemukan kurung tutup, ia menghapus kurung buka terakhir dari stack menggunakan fungsi ".pop" dan memeriksa apakah cocok dengan kurung tutupnya. Jika tidak, tanda kurung akan tidak seimbang. Jika ada kurung buka yang tidak ditutup di stack setelah perulangan selesai, itu berarti ada kurung buka atau kurung tutup yang tidak sesuai
