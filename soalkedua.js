@@ -1,3 +1,4 @@
+//mantap
 function isBalanced(str) {
     const stack = [];
     const bracketPairs = {
