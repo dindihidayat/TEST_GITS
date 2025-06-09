@@ -1,12 +1,13 @@
 //mantap
-function isBalanced(str) {
+
+`function isBalanced(str) {
     const stack = [];
     const bracketPairs = {
         '(': ')',
         '{': '}',
         '[': ']'
     };
-
+	
     for (const char of str) {
 
         if (bracketPairs.hasOwnProperty(char)) {
