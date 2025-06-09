@@ -1,4 +1,5 @@
 //mantap
+//testlagi
 function isBalanced(str) {
     const stack = [];
     const bracketPairs = {
