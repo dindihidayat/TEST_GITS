@@ -1,6 +1,6 @@
 //mantap
-
-`function isBalanced(str) {
+//ini adalah perubahan
+function isBalanced(str) {
     const stack = [];
     const bracketPairs = {
         '(': ')',
@@ -19,7 +19,7 @@
             }
         }
     }
-
+akan ada error disini
     return stack.length === 0 ? "YES" : "NO";
 }
 
