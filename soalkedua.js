@@ -1,5 +1,4 @@
 //mantap
-//ini diganti
 function isBalanced(str) {
     const stack = [];
     const bracketPairs = {
